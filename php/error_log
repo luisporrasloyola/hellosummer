@@ -1,0 +1,21 @@
+[29-Nov-2023 08:57:01 UTC] PHP Warning:  Undefined variable $name in /home8/basedehelados/public_html/php/form-process.php on line 49
+[29-Nov-2023 08:57:01 UTC] PHP Warning:  Undefined variable $email in /home8/basedehelados/public_html/php/form-process.php on line 52
+[29-Nov-2023 08:57:01 UTC] PHP Warning:  Undefined variable $guest in /home8/basedehelados/public_html/php/form-process.php on line 55
+[29-Nov-2023 08:57:01 UTC] PHP Warning:  Undefined variable $event in /home8/basedehelados/public_html/php/form-process.php on line 58
+[29-Nov-2023 08:57:01 UTC] PHP Warning:  Undefined variable $message in /home8/basedehelados/public_html/php/form-process.php on line 61
+[29-Nov-2023 08:57:01 UTC] PHP Warning:  Undefined variable $email in /home8/basedehelados/public_html/php/form-process.php on line 65
+[17-Jan-2024 02:53:37 UTC] PHP Warning:  Undefined variable $name in /home8/basedehelados/public_html/php/form-process.php on line 49
+[17-Jan-2024 02:53:37 UTC] PHP Warning:  Undefined variable $email in /home8/basedehelados/public_html/php/form-process.php on line 52
+[17-Jan-2024 02:53:37 UTC] PHP Warning:  Undefined variable $guest in /home8/basedehelados/public_html/php/form-process.php on line 55
+[17-Jan-2024 02:53:37 UTC] PHP Warning:  Undefined variable $event in /home8/basedehelados/public_html/php/form-process.php on line 58
+[17-Jan-2024 02:53:37 UTC] PHP Warning:  Undefined variable $message in /home8/basedehelados/public_html/php/form-process.php on line 61
+[17-Jan-2024 02:53:37 UTC] PHP Warning:  Undefined variable $email in /home8/basedehelados/public_html/php/form-process.php on line 65
+[08-Feb-2024 16:58:28 UTC] PHP Warning:  Undefined variable $name in /home8/basedehelados/public_html/php/form-process.php on line 49
+[08-Feb-2024 16:58:28 UTC] PHP Warning:  Undefined variable $email in /home8/basedehelados/public_html/php/form-process.php on line 52
+[08-Feb-2024 16:58:28 UTC] PHP Warning:  Undefined variable $guest in /home8/basedehelados/public_html/php/form-process.php on line 55
+[08-Feb-2024 16:58:28 UTC] PHP Warning:  Undefined variable $event in /home8/basedehelados/public_html/php/form-process.php on line 58
+[08-Feb-2024 16:58:28 UTC] PHP Warning:  Undefined variable $message in /home8/basedehelados/public_html/php/form-process.php on line 61
+[08-Feb-2024 16:58:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home8/basedehelados/public_html/php/form-process.php:65
+Stack trace:
+#0 {main}
+  thrown in /home8/basedehelados/public_html/php/form-process.php on line 65
