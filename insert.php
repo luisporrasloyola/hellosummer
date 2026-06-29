@@ -7,18 +7,20 @@
 		$telefono=$_POST['telefono'];
 		$ciudad=$_POST['ciudad'];
 		$correo=$_POST['correo'];
+		$tiempo=date('Y-m-d H:i:s');
 
 		if(!empty($nombre) && !empty($apellidos) && !empty($telefono) && !empty($ciudad) && !empty($correo) ){
 			if(!filter_var($correo,FILTER_VALIDATE_EMAIL)){
 				echo "<script> alert('Correo no valido');</script>";
 			}else{
-				$consulta_insert=$con->prepare('INSERT INTO clientes(nombre,apellidos,telefono,ciudad,correo) VALUES(:nombre,:apellidos,:telefono,:ciudad,:correo)');
+				$consulta_insert=$con->prepare('INSERT INTO clientes(nombre,apellidos,telefono,ciudad,correo,Tiempo) VALUES(:nombre,:apellidos,:telefono,:ciudad,:correo,:tiempo)');
 				$consulta_insert->execute(array(
 					':nombre' =>$nombre,
 					':apellidos' =>$apellidos,
 					':telefono' =>$telefono,
 					':ciudad' =>$ciudad,
-					':correo' =>$correo
+					':correo' =>$correo,
+					':tiempo' =>$tiempo
 				));
 				header('Location: productos.php');
 			}
