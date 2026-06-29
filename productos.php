@@ -360,7 +360,7 @@
                 <input style="background: #ed750f" type="text" name="buscar" placeholder="Buscar Sabor" 
                 value="<?php if(isset($buscar_text)) echo $buscar_text; ?>" class="input__text">
                 <input style="background: #ed750f" type="submit" class="btn" name="btn_buscar" value="Buscar">
-                <a style="display: none" href="insert.php" class="btn btn__nuevo">Nuevo</a>
+                <a style="" href="insert.php" class="btn btn__nuevo">Nuevo</a>
             </form>
         </div>
         <table>
@@ -371,6 +371,7 @@
                 <td>1.5kg</td>
                 <td>Telefono</td>
                 <td>Correo</td>
+                <td>Tiempo</td>
                 <td>Contactar Ahora</td>
                 <td style="display: none" colspan="2">Acción</td>
             </tr>
@@ -382,6 +383,7 @@
                     <td><?php echo $fila['telefono']; ?></td>
                     <td><?php echo $fila['ciudad']; ?></td>
                     <td><?php echo $fila['correo']; ?></td>
+                    <td><?php echo !empty($fila['Tiempo']) ? date('d/m/Y H:i', strtotime($fila['Tiempo'])) : ''; ?></td>
                     <td><a target="_blank" href="https://api.whatsapp.com/send?phone=51977490497"> <br><img width="20px" src="img/wsp.png"></a><a href="tel:977490497"><img width="20px" src="img/llamada.png"></a></td>
                     <td style="display: none"><a href="update.php?id=<?php echo $fila['id']; ?>"  class="btn__update" >Editar</a></td>
                     <td style="display: none"><a href="delete.php?id=<?php echo $fila['id']; ?>" class="btn__delete">Eliminar</a></td>

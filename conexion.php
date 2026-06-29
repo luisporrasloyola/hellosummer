@@ -1,7 +1,7 @@
 <?php
-	$database="basedehelados_helados2022";
-	$user='basedehelados_roothelados';
-	$password='=^N+bk~b(11A';
+	$database="crud";
+	$user='root';
+	$password='';
 
 
 try {
