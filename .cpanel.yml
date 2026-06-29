@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lbdmultiservi/pruebas.lbdmultiservicios.com/
+    - /bin/cp -R * $DEPLOYPATH
