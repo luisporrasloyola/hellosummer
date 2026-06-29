@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - /bin/echo "Deploy correcto"
+    - export DEPLOYPATH=/home/lbdmultiservi/pruebas.lbdmultiservicios.com
+    - /bin/cp -a . $DEPLOYPATH
