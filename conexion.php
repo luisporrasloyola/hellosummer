@@ -1,7 +1,7 @@
 <?php
-	$database="crud";
-	$user='root';
-	$password='';
+	$database="lbdmultiservi_dbhello";
+	$user='lbdmultiservi_userhello';
+	$password='=aAwe*#Br5WRY6(l';
 
 
 try {
