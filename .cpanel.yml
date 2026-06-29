@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/lbdmultiservi/pruebas.lbdmultiservicios.com
+    - /bin/date > $DEPLOYPATH/deploy_test.txt
     - /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' --exclude='.htaccess' ./ $DEPLOYPATH/
